@@ -38,6 +38,7 @@ git -C ../sdd-kit pull
 | Папка | Модуль | Практика | Проверка |
 | --- | --- | --- | --- |
 | `escalation/` | 6. Фреймворки и свой процесс | Эскалация по SLA | `python3 ../sdd-kit/escalation/checks/check_escalation.py` |
+| `legacy-sale/` | 9. Старый код и переписывание | Правило SALE в старом модуле | `python3 ../sdd-kit/legacy-sale/checks/check_legacy_sale.py` |
 | `refunds/` | 11. Итоговый проект | Возвраты по политике магазина | `python3 ../sdd-kit/refunds/checks/check_refunds.py` |
 
 Проверка прогоняет сценарии брифа и печатает, какие прошли. Ожидаемые значения она не показывает. Когда
